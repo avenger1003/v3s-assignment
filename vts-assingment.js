@@ -6,7 +6,7 @@
  * Function to check if sum of two numbers in a given array is zero
  * 
  * @param  [] Passing default array
- * @return {String}
+ * @return {String} Sum of two numbers in given array's zero count
  */
 function countZeroSum(param=[3,2,6,-4,7,-6]) {
     let zeroCount = 0;
@@ -21,3 +21,6 @@ function countZeroSum(param=[3,2,6,-4,7,-6]) {
     }
     return `Sum of two numbers zero count is: ${zeroCount}`; 
 }
+
+/*Calling function*/
+countZeroSum();
